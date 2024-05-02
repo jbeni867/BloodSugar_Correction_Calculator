@@ -2,7 +2,7 @@
 //* Start Date: May 2, 2024
 
 using Cocona;
-CoconaLiteApp.Run((double bloodSugar = 235) =>
+CoconaLiteApp.Run((double bloodSugar) =>
 {
     const int desiredBloodSugar = 120;
     const int carbsPerUnit = 20;
