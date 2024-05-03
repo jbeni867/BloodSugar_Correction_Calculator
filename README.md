@@ -17,9 +17,14 @@ dotnet publish -c Release -r win-x64 --self-contained -p:PublishTrimmed=true -p:
 Unzip the folder and place in long-term storage location \
 Navigate to folder labeled "BloodSugar_Correction_Calculator/CorrectionCalculator/bin/Release/net8.0"\
 
-Install per user: (locally)
+Install per user: (OSX/LINUX)
 ```bash
 ln -s CorrectionCalculator ~/bin/bscalc
 ```
 Then add the "bin" folder to your PATH variable and your set!
-    
+
+Install per user: (WINDOWS)
+```bash
+ln -s CorrectionCalculator.exe ~/bin/bscalc
+```
+Then add the "bin" folder to your PATH variable and your set!
