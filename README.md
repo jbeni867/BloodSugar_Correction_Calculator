@@ -17,6 +17,7 @@ dotnet publish -c Release -r win-x64 --self-contained -p:PublishTrimmed=true -p:
 ```
 ## Installation
 Unzip the folder and place in long-term storage location \
+Navigate to folder labeled "BloodSugar_Correction_Calculator/CorrectionCalculator/bin/Release/net8.0"
 
 Install per user: (OSX/LINUX)
 ```bash
