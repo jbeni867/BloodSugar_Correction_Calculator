@@ -21,7 +21,7 @@ Navigate to folder labeled "BloodSugar_Correction_Calculator/CorrectionCalculato
 
 Install per user: (OSX/LINUX)
 ```bash
-ln -s CorrectionCalculator ~/bin/bscalc
+ln -s $PWD/CorrectionCalculator $HOME/bin
 ```
 Then add the "bin" folder to your PATH variable and your set!
 
