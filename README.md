@@ -6,7 +6,7 @@ Description: Simple script to return the amount of insulin needed to correct blo
 ## Deployment
 
 To build in MacOS (M Series chips)\
-Navigate to folder labeled "BloodSugar_Correction_Calculator/CorrectionCalculator/bin/Release/net8.0"
+Navigate to folder labeled "BloodSugar_Correction_Calculator/CorrectionCalculator/"
 
 ```bash
 dotnet publish -c Release -r osx-arm64 --self-contained -p:PublishTrimmed=true -p:PublishReadyToRun=true
