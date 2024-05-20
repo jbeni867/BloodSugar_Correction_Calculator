@@ -8,7 +8,7 @@ CoconaLiteApp.Run(([Argument(Description = "User's current blood sugar", Name = 
 {
     const int desiredBloodSugar = 120;
     const int carbsPerUnit = 20;
-    double result = (bloodSugar - desiredBloodSugar) / carbsPerUnit;
+    var result = (bloodSugar - desiredBloodSugar) / carbsPerUnit;
     double.Round(result, 2);
     Console.WriteLine(result + " units.");
 });
